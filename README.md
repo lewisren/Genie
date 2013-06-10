@@ -16,4 +16,10 @@ How-It-Works
 
 How-To-Run Yolo-Robot
 ---------------------
+### Dependencies
+Get [MacPorts] (http://www.macports.org/install.php):
+
+Get SciPy:
+$sudo port install py27-numpy py27-scipy py27-matplotlib py27-ipython +notebook py27-pandas py27-sympy py27-nose
+
 We'll get there.
