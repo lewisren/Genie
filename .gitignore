@@ -1,0 +1,15 @@
+# IntelliJ files
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Eclipse files
+.classpath
+.project
+
+# Build outputs
+target/
+
+# OS hidden files
+.DS_Store
