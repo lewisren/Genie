@@ -10,7 +10,8 @@
 
 # Build outputs
 target/
-graphchi/.hg*
+graphchi/
+!graphchi/myapps/
 
 # OS hidden files
 .DS_Store
