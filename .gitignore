@@ -10,7 +10,7 @@
 
 # Build outputs
 target/
-graphchi/
+graphchi/*
 !graphchi/myapps
 !graphchi/myapps/*
 
