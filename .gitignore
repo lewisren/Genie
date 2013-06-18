@@ -12,6 +12,7 @@
 target/
 graphchi/
 !graphchi/myapps/
+!graphchi/myapps/*
 
 # OS hidden files
 .DS_Store
