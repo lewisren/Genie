@@ -39,8 +39,8 @@ using namespace graphchi;
   * Type definitions. Remember to create suitable graph shards using the
   * Sharder-program. 
   */
-typedef my_vertex_type VertexDataType;
-typedef my_edge_type EdgeDataType;
+typedef int VertexDataType;
+typedef int EdgeDataType;
 
 /**
   * GraphChi programs need to subclass GraphChiProgram<vertex-type, edge-type> 
