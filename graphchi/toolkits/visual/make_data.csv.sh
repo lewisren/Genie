@@ -107,7 +107,7 @@ do
 
   echo "Going to go over `wc -l auser.map.text | awk '{print $1}'` lines of map file"
   nodes_num=0;
-  declare -A names;
+  declare -a names;
   while read i
   do
     names[`echo $i|awk '{print $2}'`]=`echo $i|awk '{print $1}'`;
