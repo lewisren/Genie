@@ -9,10 +9,7 @@
 .project
 
 # Build outputs
-target/
-graphchi/*
-!graphchi/myapps
-!graphchi/myapps/*
+graphchi/*/
 
 # OS hidden files
 .DS_Store
