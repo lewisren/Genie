@@ -1,11 +1,11 @@
-yolo-robot
+Genie
 ==========
 
-You-Only-Learn-Once Robot, so smart it only needs to learn once. 
+Genie, Graph Learning & Data Visualization
 
 Introduction
 ------------
-Yolo-Robot is a Graph Learning Tool used to predict User interaction with Products. 
+Genie is a Graph Learning Tool used to predict User interaction with Products. 
 It uses [GraphLab](http://graphlab.org/) and [GraphChi](http://graphlab.org/graphchi/)'s powerful library to generate data predictions.
 
 
@@ -51,7 +51,7 @@ How-To-Run Yolo-Robot
 ---------------------
 ### Setup
 ```bash
-$ cd /path/to/yolo-robot/graphchi
+$ cd /path/to/genie/graphchi
 $ ./install.sh
 $ cd toolkits/graph_analytics
 $ make
@@ -59,7 +59,7 @@ $ make
 
 ### Reformatting Data
 ```bash
-$ cd /path/to/yolo-robot/graphchi
+$ cd /path/to/genie/graphchi
 $ python reformatter.py [raw_dump_data_file]
 ```
 
