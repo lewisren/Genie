@@ -47,7 +47,7 @@ The brains of the program. This will treat the weight of each edge as an "intere
 The output of Label Propagation returns an NxD matrix where N=# of Nodes and D=# of Products. Given this result we return to our inversely mapped dictionary to decipher what each Node_ID represents in terms of an actual Product_ID. Using heapsort to optimize for speed we maintain the k-largest elements (Or k highest probabilities) and output them as recommendations.
 
 
-How-To-Run Yolo-Robot
+How-To-Run Genie
 ---------------------
 ### Setup
 ```bash
