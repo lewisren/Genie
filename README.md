@@ -57,7 +57,7 @@ $ cd toolkits/graph_analytics
 $ make
 ```
 
-### Reformatting Data
+### Cleaning & Reformatting Data
 ```bash
 $ cd /path/to/genie/graphchi
 $ python reformatter.py [raw_dump_data_file]
