@@ -1,13 +1,13 @@
 Genie
 ==========
 
-Genie, Graph Learning & Data Visualization
+Graph Learning via Label Propagation & Data Visualization
 
 Introduction
 ------------
 Genie is a Graph Learning Tool used to predict User interaction with Products. 
 It uses [GraphLab](http://graphlab.org/) and [GraphChi](http://graphlab.org/graphchi/)'s powerful library to generate data predictions.
-
+See an example video [here](http://www.youtube.com/watch?v=PzCtioqsJ_k)!
 
 How-It-Works
 ------------
