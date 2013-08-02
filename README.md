@@ -73,3 +73,9 @@ $ python reformatter.py [raw_dump_data_file]
 ```bash
 $ python graphify.py [cleaned_data_file] 
 ```
+
+### Outputs
+* *final_result* - **Unique UserID and top 5 ProdID recommendations**
+* *data/[cleaned_data_file]_nodes.csv* - **Unique node table for Gephi**
+* *data/[cleaned_data_file]_edges.csv* - **Weighted edge table for Gephi**
+* *data/[cleaned_data_file]_edges_recommendation.csv* - **Label propagation edge table for Gephi**
