@@ -77,7 +77,7 @@ os.system("./toolkits/graph_analytics/label_propagation --training="+inputfile+"
 print "Done propagating..... Time Elapsed: " + str(time.time() - start_time)
 
 # Begin Parsing and Top-5 
-with open(inputfile+"_temp_U.mm", "r") as result, open(inputfile+"_edges_recommendation", "w") as recommendation_edges, open("final_result", "w") as final_result:
+with open(inputfile+"_temp_U.mm", "r") as result, open(inputfile+"_edges_recommendation.csv", "w") as recommendation_edges, open("final_result", "w") as final_result:
 	counter = 0
 	prod_num = 0
 	top_items = {}
